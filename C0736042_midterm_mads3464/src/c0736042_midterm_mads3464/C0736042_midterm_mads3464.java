@@ -16,12 +16,22 @@ public class C0736042_midterm_mads3464 {
      */
     public static void main(String[] args) {
         String s ="Rajveer";
+        
         char[] try1 = s.toCharArray();
  
         for (int i = try1.length-1; i>=0; i--)
             System.out.print(try1[i]);
+        
+        String s1="1101";  
+int decimal=Integer.parseInt(s1,2);  
+ System.out.println(decimal);
     }
     
-    }
+   
+
+     
+             
+}
     
+
 
