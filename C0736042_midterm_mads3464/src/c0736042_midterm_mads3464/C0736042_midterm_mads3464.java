@@ -37,6 +37,28 @@ String initials = s3.substring(0, 1) + s3.substring(6, 7);
 		System.out.println(initials);
     
                 // forth program
+                String s7="Earth takes 24 hours to rotate"; 
+char ch; 
+int max=0,i,j,cn=0; 
+for(i=0;i<s7.length();i++) 
+{ 
+cn=0; 
+for(j=i;j<s7.length();j++) 
+{ 
+if(s7.charAt(i)==s7.charAt(j),cn++); 
+} 
+if(cn>max) 
+{ 
+max=cn; 
+ch=s7.charAt(i); 
+} 
+} 
+System.out.println(cn);
+                
+
+    
+
+ //assertEquals(2, count);
                 
    //fifth_program
    
@@ -48,7 +70,6 @@ String initials = s3.substring(0, 1) + s3.substring(6, 7);
        System.out.print("String after replacing the with this:" );
     
       System.out.println(s5.replace("the", "this"));
-      
       
     }
     
