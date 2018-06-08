@@ -22,14 +22,22 @@ public class C0736042_midterm_mads3464 {
         for (int i = try1.length-1; i>=0; i--)
             System.out.print(try1[i]);
         
-        String s1="1101";  
+    
+    
+        String s1="1111";  
 int decimal=Integer.parseInt(s1,2);  
  System.out.println(decimal);
-    }
     
    
+   
+       String s3 = new String("the dog jumped over the fence");
 
-     
+       System.out.print("String after replacing the with that :" );
+       System.out.println(s3.replaceFirst("the", "that"));
+
+       System.out.print("String after replacing Site name:" );
+       System.out.println(s3.replaceFirst("the", "this"));
+    }
              
 }
     
